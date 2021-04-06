@@ -1,0 +1,17 @@
+.btn-inicio{
+    background-color: #23A0DD;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    cursor: pointer;
+    font-size:1.24em;
+    padding: 6px 25px;
+    margin-top: 20px;
+    outline: none;
+    transition: all 1s;
+    &:hover{
+        border: solid 1px #23A0DD;
+        color: #23A0DD;
+        background: white;
+    }
+}

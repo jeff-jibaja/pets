@@ -17,7 +17,7 @@ export const Card = ({id,title,url,width,height,life,name,origin,temperament}) =
                         <li className="list__item">Temperamento:<span >{temperament}</span></li>
                     </ul>
                 </div>
-                <img   className="img-card" src={url} alt={title} />
+                <img className="img-card" src={url} alt={title} />
             </div>
         </div>
     )

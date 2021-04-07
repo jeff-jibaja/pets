@@ -23,7 +23,11 @@
         align-items:center;
         background:white;
         padding:5px;
-
+        background:rgba(#D9DFDE,.15);
+        border-radius: 10px;
+        -webkit-box-shadow: 0px 0px 15px 0px rgba(#4D9C97,0.25);
+        -moz-box-shadow: 0px 0px 15px 0px rgba(#4D9C97,0.25);
+        box-shadow: 0px 0px 15px 0px rgba(#4D9C97,0.25);
     }
 
     .img-card{
@@ -37,11 +41,8 @@
     }
 
     .card__body-description{
-        background:rgba(#D9DFDE,.15);
+       
         padding:5px;
-        -webkit-box-shadow: 0px 0px 15px 0px rgba(#4D9C97,0.25);
-        -moz-box-shadow: 0px 0px 15px 0px rgba(#4D9C97,0.25);
-        box-shadow: 0px 0px 15px 0px rgba(#4D9C97,0.25);
     }
     .list__caracterist{
         list-style: none;
